@@ -1,18 +1,18 @@
-# Spaggiari Tool - Istruzioni rapide
+# Spaggiari Classeviva Tool - Istruzioni rapide
 
-### A cosa serve
+## A cosa serve
 Come molti colleghi scrivo le valutazioni su un folgio excel, google sheets o un database notion oppure le faccio calcolare automaticamente a partire da dei descrittori.
-Questo tool serve a trascrivere con un copia e incolla voti e competenze dal folgio di calcolo o database al registro elettronico.
+Questo tool serve a trascrivere con un copia e incolla voti e valutazioni per competenze dal folgio di calcolo o database al registro elettronico, agevolando quello che altrimenti è un lavoro tedioso, inutile e ripetitivo.
 
-### Cosa fa
-Il tool riconosce tab e a capo nel testo incollato, converte i valori numerici nel formato dei voti di spaggiari con mezzi voti, "+" e "-", a partire dalla prima casella incolla il primo valore, preme tab, incolla il secondo e così via fino a terminare la lista.
+## Cosa fa
+Il tool riconosce tab e a capo nel testo incollato (vengono generati automaticamente quando si copia e incolla una selezione di celle da fogli di calcolo o da database notion), converte i valori numerici nel formato dei voti di spaggiari con mezzi voti, "+" e "-", a partire dalla prima casella incolla il primo valore, simula la pressione del tasto tab, incolla il secondo e così via fino a terminare la lista.
 
 ## Requisiti
 - Python 3 deve essere installato sul computer.
   - Scarica da: https://www.python.org/downloads/
 
-## Come si usa
 
+## Come si usa
 
 ### Su Mac
 1. Fai doppio click su `Voti e competenze in batch (MacOS).command`.
@@ -30,6 +30,10 @@ Il tool riconosce tab e a capo nel testo incollato, converte i valori numerici n
   chmod +x "Voti e competenze in batch (MacOS).command"
 Poi riprova il doppio click.
 # Il file principale dello script è `Script.py`.
+
 ## Problemi?
 - Assicurati che Python sia installato e funzionante.
 - Se qualcosa non va, riavvia il computer e riprova.
+
+## Disclaimer
+Ricontrollare bene che i dati inseriti dal tool siano corretti
