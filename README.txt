@@ -1,5 +1,12 @@
 # Spaggiari Tool - Istruzioni rapide
 
+### A cosa serve
+Come molti colleghi scrivo le valutazioni su un folgio excel, google sheets o un database notion oppure le faccio calcolare automaticamente a partire da dei descrittori.
+Questo tool serve a trascrivere con un copia e incolla voti e competenze dal folgio di calcolo o database al registro elettronico.
+
+### Cosa fa
+Il tool riconosce tab e a capo nel testo incollato, converte i valori numerici nel formato dei voti di spaggiari con mezzi voti, "+" e "-", a partire dalla prima casella incolla il primo valore, preme tab, incolla il secondo e così via fino a terminare la lista.
+
 ## Requisiti
 - Python 3 deve essere installato sul computer.
   - Scarica da: https://www.python.org/downloads/
