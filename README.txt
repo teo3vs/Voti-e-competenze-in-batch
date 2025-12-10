@@ -26,4 +26,3 @@ Poi riprova il doppio click.
 ## Problemi?
 - Assicurati che Python sia installato e funzionante.
 - Se qualcosa non va, riavvia il computer e riprova.
-- Per assistenza, contatta chi ti ha fornito il tool.
